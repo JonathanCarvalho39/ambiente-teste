@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./site/public/css/style-index.css">
+    <script src="./site/public/js/index.js"></script>
 </head>
 
 <body>
 
-    <header class="container_header_banner">
+    <header id="header" class="container_header_banner">
         <nav>
             <div class="logo">
                 <a href="#">
@@ -19,20 +20,24 @@
             </div>
             <ul class="ul_header">
                 <li>
-                    <a href="">Login</a>
+                   <li> 
+                    <a href="#home">Início</a>
                 </li>
                 <li>
-                    <a href="">Sobre nós</a>
+                    <a href="#sobre">Sobre nós</a>
                 </li>
                 <li>
-                    <a href="">Contato</a>
+                    <a href="#footer">Contato</a>
+                </li>
+                <li>
+                    <a href="./login.html">Login</a>
                 </li>
             </ul>
         </nav>
     </header>
 
 
-    <section class="div_banner">
+    <section id="home" class="div_banner">
         <div class="container">
             <div class="div_banner_text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quae, dolorem necessitatibus voluptates
@@ -45,7 +50,7 @@
         </div>
     </section>
     </div>
-    <hr>
+    <hr id="sobre" class="anchor-point">
     <section class="sobrenos">
         <h1>Sobre Nós</h1>
         <div class="cards-sobrenos container">
@@ -73,7 +78,7 @@
             </div>
         </div> -->
     </section>
-    <hr>
+    <hr id="footer">
 
     <footer>
         <div class="div_footer container">
