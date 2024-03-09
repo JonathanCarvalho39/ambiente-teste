@@ -172,7 +172,7 @@ button {
   }
 
   .container {
-    height: 90vh;
+    margin-top: -1rem;
     min-width: 95%;
   }
 
