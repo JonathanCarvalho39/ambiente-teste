@@ -91,7 +91,7 @@ nav {
     justify-content: center;
   }
   .ul_header a {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     display: flex;
     text-align: center;
   }
@@ -171,7 +171,7 @@ nav {
     height: 5%;
   }
   .div_banner_text {
-    font-size: 1.3rem;
+    font-size: 1rem;
     width: 95%;
   }
 }
