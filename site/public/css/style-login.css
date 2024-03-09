@@ -67,7 +67,7 @@ button {
   flex-direction: column;
   padding: 0 5%;
   height: 100%;
-  width: 110%;
+  width: 115%;
 }
 
 .container input {
@@ -143,12 +143,6 @@ button {
 }
 
 @media only screen and (max-width: 500px) {
-  .painel-container h1 {
-    font-size: 20px;
-  }
-  .painel-container p {
-    font-size: 12px;
-  }
 
   .div_button {
     flex-direction: column;
@@ -163,14 +157,14 @@ button {
   }
 
   .painel-container {
-    left: 75%;
-    width: 25%;
+    display: none;
   }
   .sign-in {
-    width: 75%;
+    width: 100%;
   }
 
   .container {
-    min-width: 400px;
+    height: 90vh;
+    min-width: 95%;
   }
 }
