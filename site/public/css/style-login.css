@@ -142,7 +142,7 @@ button {
   width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .painel-container h1 {
     font-size: 20px;
   }
@@ -163,14 +163,14 @@ button {
   }
 
   .painel-container {
-    left: 70%;
-    width: 30%;
+    left: 75%;
+    width: 25%;
   }
   .sign-in {
-    width: 70%;
+    width: 75%;
   }
 
   .container {
-    min-width: 400px;
+    min-width: 350px;
   }
 }
