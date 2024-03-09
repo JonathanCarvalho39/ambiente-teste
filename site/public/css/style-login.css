@@ -143,6 +143,14 @@ button {
 }
 
 @media only screen and (max-width: 500px) {
+  button {
+    width: 100%;
+    padding: 1.2rem 2rem;
+  }
+
+  .container form {
+   gap: 1rem;
+  }
 
   .div_button {
     flex-direction: column;
@@ -166,5 +174,12 @@ button {
   .container {
     height: 90vh;
     min-width: 95%;
+  }
+
+  .container input {
+    margin: 18px 0 18px 0;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 8px;
   }
 }
