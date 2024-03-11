@@ -89,7 +89,12 @@ body {
   flex-direction: column;
 }
 
-.logo img {
+#logotipo {
+  width: 10rem;
+  margin-bottom: -2rem;
+}
+
+.logo img{
   width: 3.5rem;
 }
 
@@ -102,7 +107,7 @@ body {
 } */
 
 #sair {
-display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 500px) {
@@ -110,7 +115,8 @@ display: none;
   .menuLateral {
     display: none;
   }
-  .div_dashboard{
+
+  .div_dashboard {
     z-index: -1;
   }
 

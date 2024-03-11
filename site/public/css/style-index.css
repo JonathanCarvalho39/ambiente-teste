@@ -57,7 +57,10 @@ html {
 
 .logo {
   background-color: var(--color01);
-  padding-top: 8px;
+}
+
+.logo img{
+  width: 7rem;
 }
 
 nav {
@@ -253,11 +256,11 @@ hr {
   font-size: 50px;
 }
 
-.icon-views{
+.icon-views {
   font-size: 50px;
 }
 
-.icon-diamond{
+.icon-diamond {
   font-size: 50px;
 }
 
@@ -273,11 +276,11 @@ hr {
     font-size: 30px;
   }
 
-  .icon-views{
+  .icon-views {
     font-size: 30px;
   }
-  
-  .icon-diamond{
+
+  .icon-diamond {
     font-size: 30px;
   }
 
