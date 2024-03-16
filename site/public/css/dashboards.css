@@ -44,7 +44,7 @@ body {
 .menuLateral {
   background-color: #0a151f;
   height: 100vh;
-  width: 5vw;
+  width: 20vw;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -55,6 +55,7 @@ body {
   border-radius: 0 15px 15px 0;
 }
 
+
 /* sub menu */
 
 .div_dashboard {
@@ -64,8 +65,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 95vw;
-  margin-left: 5vw;
+  width: 80vw;
+  margin-left: 20vw;
   transition: 0.5s;
   text-align: center;
 }
@@ -90,11 +91,11 @@ body {
 }
 
 #logotipo {
-  width: 10rem;
+  width: 5rem;
   margin-bottom: -2rem;
 }
 
-.logo img{
+.logo img {
   width: 3.5rem;
 }
 
@@ -102,13 +103,14 @@ body {
   font-size: 12px;
 }
 
-/* #seta{
-  transform: rotate(90deg)
-} */
-
-#sair {
-  display: none;
+#seta {
+  margin-top: 3rem;
+  transform: rotate(270deg)
 }
+
+/* #sair {
+  display: none;
+} */
 
 @media only screen and (max-width: 500px) {
 

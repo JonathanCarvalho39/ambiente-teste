@@ -37,6 +37,4 @@ function sumirMenu() {
         seta.style.rotate = '180deg'
         logo.style.display = 'block';
     }
-
-
 }
